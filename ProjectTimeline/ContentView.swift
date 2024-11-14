@@ -69,6 +69,7 @@ struct ContentView: View {
                     startDate: startDate,
                     endDate: endDate
                 )
+                .setTitle("Project Timeline")
                 .horizontalGridLine(gridLineColor: Color.blue.opacity(0.3))
                 .horizontalDateLabels(textColor: Color.black)
                 .dateIndicatorLine(indicatorColor: Color.green)

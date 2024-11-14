@@ -16,6 +16,7 @@ public struct TimelineView<ProjectTask: TimelineTask>: View {
     var focusDate = Date().normalized
     
     // Customizable colors
+    private var title: String = "Task Timeline"
     private var gridLineColor: Color = Color.gray.opacity(0.1)
     private var dateLabelColor: Color = Color.primary
     private var indicatorColor: Color = Color.red
@@ -30,13 +31,9 @@ public struct TimelineView<ProjectTask: TimelineTask>: View {
     public var body: some View {
         VStack {
             HStack {
-                Text("Task Timeline")
+                Text(title)
                     .font(.headline)
                 Spacer()
-                Button(action: {}) {
-                    Image(systemName: "ellipsis")
-                        .foregroundColor(.secondary)
-                }
             }
             
             ScrollViewReader { proxy in
@@ -64,6 +61,13 @@ public struct TimelineView<ProjectTask: TimelineTask>: View {
             }
         }
         .padding()
+    }
+    
+    // Modifier for setting the title
+    public func setTitle(_ title: String) -> TimelineView {
+        var copy = self
+        copy.title = title
+        return copy
     }
     
     // Modifier for horizontal grid line style

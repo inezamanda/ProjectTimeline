@@ -1,10 +1,10 @@
-# ``TimelineSDK``
+# ``ProjectTimeline``
 
-TimelineSDK is a Swift framework for creating customizable project timelines in iOS apps.
+ProjectTimeline is a Swift framework for creating customizable project timelines in iOS apps.
 
 ## Preview
 
-Here’s what you can achieve with TimelineSDK:
+Here’s what you can achieve with ProjectTimeline SDK:
 
 ![Timeline Preview](Assets/Preview1.png)
 
@@ -46,9 +46,9 @@ Displays a vertical indicator line for the current or selected date.
 
 ### Installation
 
-Add TimelineSDK to your project using Swift Package Manager:
+Add ProjectTiimeline SDK to your project using Swift Package Manager:
 1. In Xcode, go to `File` > `Add Packages`
-2. Enter the repository URL: `https://github.com/inezamanda/TimelineSDK`
+2. Enter the repository URL: `https://github.com/inezamanda/ProjectTimeline`
 
 ### Usage
 
@@ -135,3 +135,14 @@ Customizes the color of the vertical grid lines.
 Customizes the color of the date labels.
 - `dateIndicatorLine(indicatorColor:)`<br>
 Customizes the color of the vertical date indicator line.
+
+### Contribution
+
+ProjectTimeline is open source under the [MIT License](https://opensource.org/license/mit). Contributions are welcome! 🎉
+
+If you have ideas, feature requests, or improvements you’d like to see in this project, feel free to:
+1. Fork this repository.
+2. Implement your changes or enhancements.
+3. Submit a Pull Request for review.
+
+Alternatively, you can create an issue to suggest new features or report bugs. Let’s collaborate to make ProjectTimeline even better!

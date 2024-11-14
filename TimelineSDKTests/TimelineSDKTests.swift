@@ -1,14 +1,14 @@
 //
-//  ProjectTimelineTests.swift
-//  ProjectTimelineTests
+//  TimelineSDKTests.swift
+//  TimelineSDKTests
 //
-//  Created by Inez on 13/11/24.
+//  Created by Inez on 14/11/24.
 //
 
 import Testing
-@testable import ProjectTimeline
+@testable import TimelineSDK
 
-struct ProjectTimelineTests {
+struct TimelineSDKTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
